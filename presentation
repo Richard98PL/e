@@ -1,0 +1,90 @@
+
+Introduction
+
+Hello everyone to my presentation about a salesforce cpq focused project for HERE Technologies.
+
+Besides, we had the pleasure to learn and use the cpq advanced approvals package.
+
+We were developing the existing first phase of implemented solutions in salesforce cpq
+
+Developing a project is a more entertaining task because, of course, you first need to get acquainted with the business logic of the entire company, but you also need to understand how the entire ‘ecosystem’ of the existing solution works.
+
+My role in the project was to be a developer.
+
+
+Agenda
+
+1.HERE Technologies brief description
+2.Team’s way of work
+3.Project view from my perspective
+4.Functional requirements and business logic of the project
+5.Maintenance of the project
+
+HERE Technologies brief description
+
+Here Technologies is a Netherlands-based company that provides mapping and location data and related services to individuals and companies. It is majority-owned by a consortium of German automotive companies, whilst other companies also own minority stakes.
+
+Our main task was to provide the client an efficient and expandable solution allowing them convenient management of product sales.
+
+Team’s way of work
+
+The team consisted of programmers, testers, a project manager and a technical person who was our consultant on the client-team line. 
+
+Work took place in split sprints, usually lasting 2 weeks.
+
+
+Project view from my perspective
+
+My role in the project was to be a developer. 
+
+We received a description of what our client would like to have in the system and after consultations, we went to the design phase of a given functionality.
+
+
+
+
+From the development team's perspective, it was very important to create a stable communication channel between the team and the client. This project has taught me the importance of creating and maintaining a single source of truth. 
+It is not possible to create a functionality that meets all customer requirements if we do not give them a convenient way to convey these requirements
+
+Functional requirements and business logic of the project
+
+Salesforce CPQ provides solutions to many common business requirements, but of course not all of them. 
+
+When working as a CPQ developer before starting the design phase of a given solution, you need to know CPQ well enough to know immediately whether the problem should be solved in pure CPQ or using Salesforce alone. 
+
+The main functional requirement of the client was that the platform they were using should provide a graphical interface that allows the configuration of sales offers delivered to clients of their company.
+
+In addition, on the basis of a given sales offer, the user should be able to generate a legal document containing all the necessary elements of sales offers such as company data, product summary or signatures of persons issuing a given document.
+
+
+The organizational structure of HERE Technologies is divided into two main branches, people involved in acquiring customers and sending them specific sales offers, and a group of people responsible for this, whose main task was to verify and accept these sales offers. CPQ Advanecd Approvals turned out to be the ideal solution here. 
+
+The sales offer without passing the appropriate verification and acceptance chain could not be sent to the customer, and more precisely, the sales document was covered with a watermark.
+
+HERE Technologies Salesforce is integrated with many other powerful tools like ORACLE or Salesforce Einstein.
+We can say that our system was the entry point for many other analytical processes that other departments of HERE dealt with. 
+It was very important for us to maintain data integrity as analyzes and reports were generated on its basis.
+
+
+HERE Technologies also publishes a partner portal for the company's partners, thanks to which people could create their own sales proposals, which then went to the manager of a given partner, and then went through the entire verification and approval process. This shortened the waiting time for relations with orders and relieved the sellers. It is part of the community cloud integrated with CPQ, which again shows that some of the business logic had to be implemented outside of the CPQ itself.
+
+ 
+Another example of this type of problem was a component for CPQ Advanced Approvals, which we had to build from scratch. 
+
+
+
+
+
+
+
+
+Maintenance of the project
+
+
+
+We took over this project from another team and we will probably pass the project on to another team, so it is important to provide the solution and documentation in such a way that it can be developed by people who have not worked on it before.
+
+
+
+
+
+
